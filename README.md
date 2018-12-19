@@ -13,8 +13,14 @@
  ******************************************************************************
  install pandas
  *****************************************************************************
+ Downloat orl_faces data set then in same directory of project create a folder
+ name 'data' after that  run file.py it will create train and test data in csv 
+ formate 
+ Before run the code please check all the directory mention in the program
+ *****************************************************************************
+ Now:-
  in terminal run:- 'python2 training_and_testing.py'; to get the result
- ******************************************************************************
+ *****************************************************************************
  Description:-
  *****************************************************************************
  *****************************************************************************
