@@ -38,16 +38,7 @@ def calculateClusterCenter(U,sx):
     sx=np.array(sx)
     um=um.T
     cntr = um.dot(sx) / np.atleast_2d(um.sum(axis=1)).T
-    return cntr    
-
-def updateMembershipValue1(D,membership_mat,k):
-   p = float(2/(m-1))
-   for i in range(len(membership_mat)):
-    d=D[i]
-    for j in range(k):	
-     den=sum([math.pow(float(d[j]/d[k1]),p) for k1 in range(k)])  
-     membership_mat[i][j]=float(1/den)
-   return membership_mat
+    return cntr   
 
 def updateMembershipValue(D,U,k):
    p = float(2/(m-1))
