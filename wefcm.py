@@ -1,7 +1,6 @@
 import os
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
 import pandas as pd
 import random
 import operator
