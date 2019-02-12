@@ -13,7 +13,7 @@
  ******************************************************************************
  install pandas
  *****************************************************************************
- Downloat orl_faces data set then in same directory of project create a folder
+ Download "orl_faces" dataset then in same directory of project create a folder
  name 'data' after that  run file.py it will create train and test data in csv 
  formate 
  Before run the code please check all the directory mention in the program
@@ -24,23 +24,23 @@
  Description:-
  *****************************************************************************
  *****************************************************************************
- In this project i am using orl face dataset
+ In this project i am using orl_face dataset
  *****************************************************************************
  train 90% of dataset using Wefcm clustering method
  *****************************************************************************
  after training we will get cluster center and membership matrix
  *****************************************************************************
- then i have label cluster center using knn
+ then i have to label the cluster center for that i used knn
  *****************************************************************************
- then test remaining dataset using knn by using output cluster center
+ then with the help of labeled cluster center we will predict the class for new data 
  *****************************************************************************
  ****************************************************************************
  *****************************************************************************
  *****************************************************************************
- i got accuracy of test data=70%
+ accuracy of test data is at most 70%
  *****************************************************************************
  *****************************************************************************
- clustering analysis
+ clustering analysis:-
  *****************************************************************************
  *****************************************************************************
  NMI of training dataset =0.79
